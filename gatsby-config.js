@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `GA 2020 Fall Conference`,
+    description: `Webiste for all information pertaining to Gambler's Anonymous 2020 Fall Conference.`,
+    author: `@stevenmchenry01`
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
     "gatsby-plugin-eslint",
     `gatsby-plugin-react-helmet`,
     {
