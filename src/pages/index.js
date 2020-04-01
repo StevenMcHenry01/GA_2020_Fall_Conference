@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 
 function IndexPage() {
   return (
-    <Layout>
+    <Layout banner={true}>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title='Home'
@@ -19,7 +19,7 @@ function IndexPage() {
         </div>
         <div className='py-8 px-16'>
           <p className='text-xl italic text-indigo-700'>I sought my soul,</p>
-          <p className='text-xl italic text-indigo-700'>But count not see,</p>
+          <p className='text-xl italic text-indigo-700'>But could not see,</p>
           <p className='text-xl italic text-indigo-700'>I sought my God,</p>
           <p className='text-xl italic text-indigo-700'>But he eluded me,</p>
           <p className='text-xl italic text-indigo-700'>I sought my brothers and sisters,</p>
@@ -27,7 +27,7 @@ function IndexPage() {
         </div>
         <div>
           <p>
-            Should you have any questions please contact Betsy M at{` `}
+            Should you have any questions please contact at{` `}
             <a
               className='text-main'
               target='_blank'

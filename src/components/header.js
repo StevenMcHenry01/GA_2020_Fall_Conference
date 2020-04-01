@@ -1,8 +1,9 @@
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
-function Header() {
+function Header({ banner }) {
   const [isExpanded, toggleExpansion] = useState(false)
   const data = useStaticQuery(graphql`
     query SiteTitleQueryandImage {
@@ -24,9 +25,32 @@ function Header() {
 
   return (
     <header className='bg-white.300'>
+      <div
+        className={`${
+          isExpanded ? `block` : `hidden`
+        } flex flex-col items-end py-1 px-5`}
+      >
+        <button
+          onClick={() => toggleExpansion(!isExpanded)}
+          className={`${
+            isExpanded ? `block` : `hidden`
+          } text-main text-2xl text-bold`}
+        >
+          x
+        </button>
+      </div>
       <div className='flex items-center justify-between mx-auto p-2 md:p-2'>
-        <Link className='flex items-center no-underline text-main' to='/'>
-          <span className='font-bold text-l tracking-tight'>
+        <Link
+          className={`${
+            isExpanded && `invisible hidden`
+          } flex items-center no-underline text-main`}
+          to='/'
+        >
+          <span
+            className={`${
+              isExpanded && `invisible hidden`
+            }font-bold text-l tracking-tight`}
+          >
             {data.site.siteMetadata.title}
           </span>
         </Link>
@@ -49,7 +73,7 @@ function Header() {
 
         <nav
           className={`${
-            isExpanded ? `block` : `hidden`
+            isExpanded ? `block text-center content-center` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
@@ -79,6 +103,7 @@ function Header() {
             }
           ].map(link => (
             <Link
+              // onClick={() => {isExpanded && toggleExpansion(!isExpanded)}}
               className='block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-main text-xs hover:text-gray-800'
               key={link.title}
               to={link.route}
@@ -91,16 +116,22 @@ function Header() {
       <button
         onClick={() => toggleExpansion(!isExpanded)}
         className={`${
-          isExpanded ? `block` : `hidden`
-        } h-screen w-screen bg-transparent`}
+          isExpanded ? `block opacity-0 bg-transparent` : `hidden`
+        } h-screen w-screen opacity-0`}
       ></button>
-      <Img
-        fluid={data.file.childImageSharp.fluid}
-        alt='Live For Today - SAN DIEGO 2020'
-        style={{ maxHeight: '350px' }}
-      />
+      {banner && (
+        <Img
+          fluid={data.file.childImageSharp.fluid}
+          alt='Live For Today - SAN DIEGO 2020'
+          style={{ maxHeight: '350px' }}
+        />
+      )}
     </header>
   )
+}
+
+Header.propTypes = {
+  banner: PropTypes.bool
 }
 
 export default Header
