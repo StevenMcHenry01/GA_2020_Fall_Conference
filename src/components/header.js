@@ -24,7 +24,7 @@ function Header({ banner }) {
   `)
 
   return (
-    <header className='bg-white.300'>
+    <header className={`bg-white.300 ${!banner && `border-b-2 border-main`}`}>
       <div
         className={`${
           isExpanded ? `block` : `hidden`
@@ -74,7 +74,7 @@ function Header({ banner }) {
         <nav
           className={`${
             isExpanded ? `block text-center content-center` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+          }md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
             {
@@ -87,11 +87,11 @@ function Header({ banner }) {
             },
             {
               route: `/hotel_and_ground_transportation`,
-              title: `Hotel and transportation info`
+              title: `Hotel/Transport Info`
             },
             {
               route: `/golf_and_walkathon`,
-              title: `Golf and walkathon info`
+              title: `Golf/Walkathon Info`
             },
             {
               route: `/keepsake_book`,
@@ -103,10 +103,10 @@ function Header({ banner }) {
             }
           ].map(link => (
             <Link
-              // onClick={() => {isExpanded && toggleExpansion(!isExpanded)}}
-              className='block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-main text-xs hover:text-gray-800'
+              className='block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-main text-xs hover:text-blue-800'
               key={link.title}
               to={link.route}
+              activeStyle={{fontSize: '.8rem', fontWeight: '700'}}
             >
               {link.title}
             </Link>

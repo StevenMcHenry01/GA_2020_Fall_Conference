@@ -18,12 +18,12 @@ function IndexPage() {
           </h2>
         </div>
         <div className='py-8 px-16'>
-          <p className='text-xl italic text-indigo-700'>I sought my soul,</p>
-          <p className='text-xl italic text-indigo-700'>But could not see,</p>
-          <p className='text-xl italic text-indigo-700'>I sought my God,</p>
-          <p className='text-xl italic text-indigo-700'>But he eluded me,</p>
-          <p className='text-xl italic text-indigo-700'>I sought my brothers and sisters,</p>
-          <p className='text-xl italic text-indigo-700'>And found all three.</p>
+          <p className='text-xl italic text-blue-700'>I sought my soul,</p>
+          <p className='text-xl italic text-blue-700'>But could not see,</p>
+          <p className='text-xl italic text-blue-700'>I sought my God,</p>
+          <p className='text-xl italic text-blue-700'>But he eluded me,</p>
+          <p className='text-xl italic text-blue-700'>I sought my brothers and sisters,</p>
+          <p className='text-xl italic text-blue-700'>And found all three.</p>
         </div>
         <div>
           <p>
