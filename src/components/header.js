@@ -74,7 +74,7 @@ function Header({ banner }) {
         <nav
           className={`${
             isExpanded ? `block text-center content-center` : `hidden`
-          }md:block md:flex md:items-center w-full md:w-auto`}
+          } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
             {
