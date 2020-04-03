@@ -103,7 +103,6 @@ function HotelTransportPage() {
 }
 
 const HotelStyledImg = styled(Img)`
-  /* width: 300px; */
   padding: 10px;
   margin: 10px;
   border-radius: 4px;

@@ -49,7 +49,7 @@ function SanDiegoPage() {
       <div className='bg-main h-3 pb-4'></div>
       <SpacedStyledSection>
         <div>
-          <p className='text-2xl italic'>{`"How do I get to..."`}</p>
+          <p className='text-2xl italic font-bold'>{`"How do I get to..."`}</p>
         </div>
         <div>
           <span className='font-bold'>Airport/Lindbergh Field - </span>Turn
@@ -145,14 +145,222 @@ function SanDiegoPage() {
           left. Turn right on Friars then turn right on Frazee Road. Free
           parking underground.
         </div>
+        <div>
+          <span className='font-bold'>
+            Horton Plaza Mall/Gaslamp Quarter -{' '}
+          </span>
+          Turn right from our driveway. At the stop sign turn left onto 8 West
+          to 5 South. Exit Front Street. Go straight, turn left on Broadway and
+          turn right on Fourth. Mall is on your right. Turn right into the
+          parking structure.
+        </div>
+        <div>
+          <span className='font-bold'>La Jolla - </span>
+          Turn right from our driveway. At the stop sign turn left onto 8 West
+          to 5 North, exit at La Jolla Parkway. Continue driving about 5 miles
+          and turn right on Prospect. Continue straight for downtown La Jolla or
+          make a right on Coast Blvd. for the cove.
+        </div>
+        <div>
+          <span className='font-bold'>Legoland/Carlsbad Outlets - </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          North. Exit Cannon Rd. (Approximately 30 miles away.)
+        </div>
+        <div>
+          <span className='font-bold'>MCRD - </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          South and exit Old Town Ave. and continue straight. Turn right on
+          Witherby Street. This takes you into MCRD.{' '}
+        </div>
+        <div>
+          <span className='font-bold'>Mission Beach/Belmont Park - </span>
+          Turn right out of the hotel. Turn left at the stop sign to 8 West.
+          Exit West Mission Bay Dr. Turn right onto W. Mission Bay Dr. Turn
+          slight right onto ramp. Merge onto W. Mission Bay Dr. Turn left onto
+          Mission Blvd.
+        </div>
+        <div>
+          <span className='font-bold'>
+            Mission Valley Mall/AMC Theatres/Target -{' '}
+          </span>
+          Turn left from our driveway, then at the second light (Camino de la
+          Reina) turn left. Follow past Mission Center Road. Mall is on right
+          side where Target is.
+        </div>
+        <div>
+          <span className='font-bold'>
+            Old Town/Heritage Park/Trolley Station -{' '}
+          </span>
+          Turn right from our driveway. Make a left at the stop sign and a right
+          at the light. Cross bridge then make a right at the stop sign on
+          Taylor Street. At Juan Street make a left or straight for the trolley.
+        </div>
+        <div>
+          <span className='font-bold'>Pacific Beach - </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          North. Exit Garnet Ave. Turn left on Garnet Ave. Follow to the ocean.
+        </div>
+        <div>
+          <span className='font-bold'>PETCO Park - </span>
+          Turn left from our driveway. Stay to your right as you continue around
+          Hotel Circle underneath the freeway to the south side. At the stop
+          sign turn right onto 8 East. Merge onto 163 south toward downtown.
+          Stay straight to go onto 10th Avenue. Turn right onto Park Blvd.
+        </div>
+        <div>
+          <span className='font-bold'>Qualcomm Stadium - </span>
+          Turn left from our driveway. Stay to your right as you continue around
+          Hotel Circle underneath the freeway to the south side. At the stop
+          sign turn right onto 8 East and exit Qualcomm Way and follow the signs
+          to the stadium.
+        </div>
+        <div>
+          <span className='font-bold'>SDSU/Viejas Arena - </span>
+          Turn left from our driveway. Continue around Hotel Circle, underneath
+          the freeway to the south side. At stop sign turn right onto 8 East.
+          Exit College Ave and turn right. SDSU and Arena are on the right hand
+          side.
+        </div>
+        <div>
+          <span className='font-bold'>
+            Seaport Village/SD Convention Center/USS Midway -{' '}
+          </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          South. Exit at Sassafras Street and continue straight. This becomes
+          Kettner Blvd. Seaport Village is at the end. For the Convention Center
+          turn left on Harbor Drive.
+        </div>
+        <div>
+          <span className='font-bold'>SeaWorld - </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          North. Exit SeaWorld Drive. Turn left on SeaWorld Drive to entrance.
+        </div>
+        <div>
+          <span className='font-bold'>
+            Valley View Casino Center/Grocery Store/Target -{' '}
+          </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to
+          the Rosecrans exit. Turn right on Sports Arena Blvd. Ralph’s grocery
+          store is on the left and the Sports Arena is on the right.
+        </div>
+        <div>
+          <span className='font-bold'>San Diego Safari Park - </span>
+          Turn left from our driveway. Continue around Hotel Circle underneath
+          the freeway to the south side. At stop sign turn right onto 8 East to
+          163 North, this will merge with and become 15 North. Exit Via Rancho
+          Parkway and turn right. Turn right on San Pasqual Road. Follow signs
+          to San Diego Wild Animal Park. (30 miles)
+        </div>
+        <div>
+          <span className='font-bold'>
+            Tijuana, Mexico/Las Americas Outlets -{' '}
+          </span>
+          Turn right from our driveway. At stop sign turn left onto 8 West to 5
+          South. Take the last U.S. exit and park and walk across border (must
+          have a passport).
+        </div>
+        <div>
+          <span className='font-bold'>Zoo/Balboa Park - </span>
+          Turn left from our driveway. Stay to your right and continue around
+          Hotel Circle underneath the freeway to the south side. At stop sign
+          turn right onto 8 East to 163 South and exit Park Blvd. For the Space
+          Theatre and Balboa Park, turn left onto Space Theatre Way. For the
+          Zoo, turn left at Zoo Place.
+        </div>
+        <div>
+          <span className='font-bold'>Valley Liquor Market - </span>
+          Turn left from our driveway. Stay to your right and continue around
+          Hotel Circle underneath the freeway to the south side. Valley Liquor
+          is to your left before you reach the stop sign.
+        </div>
         <div className='flex flex-wrap justify-center'>
-          <GolfStyledImg
+          <SanDiegoStyledImg
             fixed={data.allFile.edges[0].node.childImageSharp.fixed}
             alt={data.allFile.edges[0].node.base.split('.')[0]}
           />
-          <GolfStyledImg
+          <SanDiegoStyledImg
             fixed={data.allFile.edges[1].node.childImageSharp.fixed}
             alt={data.allFile.edges[1].node.base.split('.')[0]}
+          />
+        </div>
+        <div>
+          <p className='text-2xl italic font-bold'>{`"How do I get back to the Hotel?..."`}</p>
+        </div>
+        <div>
+          <span className='font-bold'>Belmont Park/Mission Beach - </span>
+          Go East on W. Mission Bay Drive. Exit right onto Sunset Cliffs Blvd.
+          Turn left onto 8 East. Exit at Taylor Street/Hotel Circle. Turn left
+          at the stop sign, and left again over the bridge. After crossing the
+          bridge, stay to the left onto Hotel Circle North (be careful not to
+          get onto the freeway). The Crowne Plaza San Diego is on the left.
+        </div>
+        <div>
+          <span className='font-bold'>Downtown - </span>
+          Head East on either Broadway or Market Street. Turn left on 11th Ave.
+          This is the beginning of Highway 163 North. Exit at the 8 West/Hotel
+          Circle off ramp. Stay to your right onto Hotel Circle. Turn left at
+          the stop sign. Crowne Plaza San Diego is on the right.
+        </div>
+        <div>
+          <span className='font-bold'>Mission Valley Mall - </span>
+          Exit parking lot and turn right on Camino Del Rio North. Turn left
+          onto 8 West. Exit at Taylor Street/Hotel Circle (the second Hotel
+          Circle exit) and turn right. The Crowne Plaza San Diego is on the
+          left.
+        </div>
+        <div>
+          <span className='font-bold'>Old Town - </span>
+          Turn right on Taylor Street. Turn left and cross over bridge at the
+          Hotel Circle North sign. After you cross the bridge, stay to the left
+          onto Hotel Circle North.
+        </div>
+        <div>
+          <span className='font-bold'>
+            San Diego Airport (Lindberg Field) -{' '}
+          </span>
+          as you leave the airport, follow the signs directing you to downtown.
+          This will put you southbound on Harbor Drive. Turn left on Laurel
+          Street, go across railroad tacks and turn left on India Street and
+          left again onto 5 North. Take 8 East and stay in the right lane and
+          exit at Taylor Street/ Hotel Circle. Turn left at the stop light and
+          left again over the bridge. After crossing the bridge, stay to the
+          left onto Hotel Circle North (be careful not to get onto the freeway).
+          The Crowne Plaza San Diego is on the left.
+        </div>
+        <div>
+          <span className='font-bold'>SeaWorld - </span>
+          Exit the SeaWorld parking lot and turn left on Sea World Drive. Turn
+          right on 5 South and exit onto 8 East. Stay in the right hand lane and
+          exit at Taylor Street/Hotel Circle. Turn left at the stop sign and
+          left again over the bridge. Stay to the left onto Hotel Circle North
+          (be careful not to get onto the freeway). The Crowne Plaza San Diego
+          is on the left.
+        </div>
+        <div>
+          <span className='font-bold'>San Diego Safari Park - </span>
+          Exit the parking lot, right on Highway 78. Turn left on San Pasqual
+          Road. Turn left on Via Rancho Parkway. Turn left on 15 South. Continue
+          on 15 South past Miramar Naval Air Station. Exit right onto Highway
+          163 South (downtown). Exit right onto 8 West. Exit at Taylor
+          Street/Hotel Circle (the second Hotel Circle exit) and turn right. The
+          Crowne Plaza San Diego is on the left.
+        </div>
+        <div>
+          <span className='font-bold'>Zoo - </span>
+          Exit the zoo parking lot and turn right on Park Blvd. Turn right on
+          Russ Blvd. and after one block turn right on 11th Ave. This is the
+          beginning of Highway 163 North. Exit at 8 West/Hotel Circle off ramp.
+          Stay to your right onto Hotel Circle. Turn left at the stop sign. The
+          Crowne Plaza San Diego is on your right.
+        </div>
+        <div>
+          <p className='text-2xl italic font-bold'>{`If you get lost ... Call Us! (619) 297-1101 `}</p>
+        </div>
+        <div>2270 Hotel Circle North San Diego, CA 92108 </div>
+        <div className='flex flex-wrap justify-center'>
+          <SanDiegoStyledImg
+            fixed={data.allFile.edges[2].node.childImageSharp.fixed}
+            alt={data.allFile.edges[2].node.base.split('.')[0]}
           />
         </div>
       </SpacedStyledSection>
@@ -160,7 +368,7 @@ function SanDiegoPage() {
   )
 }
 
-const GolfStyledImg = styled(Img)`
+const SanDiegoStyledImg = styled(Img)`
   padding: 10px;
   margin: 10px;
   border-radius: 4px;
