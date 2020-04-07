@@ -14,7 +14,7 @@ function IndexPage() {
         <div>
           <h2>
             Welcome to the San Diego 2020 Fall Conference October 16 – 19, 2020
-            At the Crowne Plaza Resort
+            At the Crowne Plaza Hotel
           </h2>
         </div>
         <div className='py-8 px-16'>

@@ -52,7 +52,7 @@ function GolfPage() {
           55.00. Club Rentals are $ 25.00. Fees include (1) round of golf, golf
           cart and transportation. All golf fees and bag rentals must be paid in
           full prior to 10/1/2020 to secure your spot. After this date, please
-          contact at:{' '}
+          contact{' '}
           <a
             className='text-main'
             target='_blank'

@@ -273,16 +273,6 @@ function SanDiegoPage() {
           Hotel Circle underneath the freeway to the south side. Valley Liquor
           is to your left before you reach the stop sign.
         </div>
-        <div className='flex flex-wrap justify-center'>
-          <SanDiegoStyledImg
-            fixed={data.allFile.edges[0].node.childImageSharp.fixed}
-            alt={data.allFile.edges[0].node.base.split('.')[0]}
-          />
-          <SanDiegoStyledImg
-            fixed={data.allFile.edges[1].node.childImageSharp.fixed}
-            alt={data.allFile.edges[1].node.base.split('.')[0]}
-          />
-        </div>
         <div>
           <p className='text-2xl italic font-bold'>{`"How do I get back to the Hotel?..."`}</p>
         </div>
@@ -359,8 +349,8 @@ function SanDiegoPage() {
         <div>2270 Hotel Circle North San Diego, CA 92108 </div>
         <div className='flex flex-wrap justify-center'>
           <SanDiegoStyledImg
-            fixed={data.allFile.edges[2].node.childImageSharp.fixed}
-            alt={data.allFile.edges[2].node.base.split('.')[0]}
+            fixed={data.allFile.edges[0].node.childImageSharp.fixed}
+            alt={data.allFile.edges[0].node.base.split('.')[0]}
           />
         </div>
       </SpacedStyledSection>

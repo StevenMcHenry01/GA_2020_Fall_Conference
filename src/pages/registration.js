@@ -87,7 +87,7 @@ function RegistrationPage() {
           <span className='font-bold underline'>Crowne Plaza Hotel Room:</span>{' '}
           2270 Hotel Circle North, San Diego, CA 92108. Room rate is $130.00 per
           room/night + hotel taxes. Prices are guaranteed 3 days pre/post based
-          on availability. <span className='font-bold'>Contact hotel</span> at
+          on availability. <span className='font-bold'>Contact hotel</span> at{' '}
           <span className='font-bold'>1-888-233-9527</span> or{' '}
           <a
             className='text-main'
@@ -105,11 +105,11 @@ function RegistrationPage() {
         </div>
         <div className='p-4'>
           <span className='font-bold underline'>Golf</span> will be held on
-          Wednesday, 10/14/2020 at Admiral Baker Golf Course. Green fees are $
-          55.00. Club Rentals are $ 25.00. Fees include (1) round of golf, golf
+          Wednesday, 10/14/2020 at Admiral Baker Golf Course. Green fees are
+          $55.00. Club Rentals are $25.00. Fees include (1) round of golf, golf
           cart and transportation. All golf fees and bag rentals must be paid in
           full prior to 10/1/2020 to secure your spot. After this date, please
-          contact Hugo V. at{' '}
+          contact at{' '}
           <a
             className='text-main'
             target='_blank'
@@ -130,7 +130,7 @@ function RegistrationPage() {
         <div className='p-4'>
           <span className='font-bold underline'>Keepsake Memory Books:</span> Do
           you have a story or a poem about your recovery that you would like to
-          share… Please contact Pam R. at{' '}
+          share… Please contact at{' '}
           <a
             className='text-main'
             target='_blank'
