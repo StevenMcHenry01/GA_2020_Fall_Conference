@@ -14,7 +14,7 @@ function IndexPage() {
       <section className='text-center'>
         <div>
           <h2>
-            Welcome to the San Diego 2020 Fall Conference October 16 – 19, 2020
+            Welcome to the San Diego 2020 Fall Conference October 16 – 18, 2020
             At the Crowne Plaza Hotel
           </h2>
         </div>
